@@ -100,3 +100,8 @@ python lipsync_merge.py `
 - **CybrDrake**: Immersive Third Person - Best Of Both Worlds 및 모든 V 립싱크 애니메이션
 - **WolvenKit Team**: WolvenKit
 - 이 도구는 원본 모드와 공식적인 관계가 없는 비공식 도구입니다.
+
+## 📄 License
+
+이 저장소의 **소스 코드**는 [MIT License](LICENSE)를 따릅니다.
+Immersive Third Person - Best Of Both Worlds(CybrDrake), 그 립싱크 애니메이션, 그리고 이 도구가 처리하는 Cyberpunk 2077 게임 파일은 이 라이선스에 포함되지 않으며 각 권리자에게 있습니다.
