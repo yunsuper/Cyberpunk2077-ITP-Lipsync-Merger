@@ -57,7 +57,7 @@
 - Python 3.8+
 - [WolvenKit](https://github.com/WolvenKit/WolvenKit) CLI (9.1.0에서 확인, **.NET 10 Runtime** 필요)
 - 원본 모드 [Immersive Third Person - Best Of Both Worlds V2](https://www.nexusmods.com/cyberpunk2077/mods/32203) 설치
-- 게임에 원하는 **음성 언어** 설치
+- 게임의 **음성 언어**를 원하는 언어로 설정해 데이터가 받아진 상태 (해당 언어의 `.lipmap`은 그 음성 데이터가 있을 때만 보입니다)
 
 ### 1. 대상 언어 `.lipmap` 꺼내기 (WolvenKit GUI)
 1. Asset Browser에서 **Mod Browser를 꺼서** 게임 원본 보기로 전환
