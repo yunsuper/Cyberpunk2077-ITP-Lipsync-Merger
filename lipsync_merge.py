@@ -164,7 +164,10 @@ def main():
         print("[5/6] 결과 lipmap 생성 및 애니메이션 복사")
         loc = os.path.join(build, "archive", "base", "localization")
         os.makedirs(loc)
-        merged_json = os.path.join(work, os.path.basename(tgt_copy) + ".json")
+        # 결과 파일 이름은 입력 파일 이름이 아니라 lipmap 안의 언어 코드를 따른다.
+        # (게임은 base\\localization\\<언어 코드>.lipmap 경로만 읽으므로, 입력 파일 이름을
+        #  바꿔 둔 경우에도 올바른 이름으로 들어가야 한다.)
+        merged_json = os.path.join(work, f"{dst_lang}.lipmap.json")
         json.dump(tgt_doc, open(merged_json, "w", encoding="utf-8"), ensure_ascii=False)
         run_wk(a.wolvenkit, "convert", "d", merged_json, "-o", loc)
         for vp, tp in copies:
